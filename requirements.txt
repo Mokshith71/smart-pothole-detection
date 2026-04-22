@@ -1,0 +1,11 @@
+# Computer Vision & AI
+ultralytics
+opencv-python
+
+# Database & Cloud
+pymongo
+requests
+
+# Dashboard & Data Handling
+streamlit
+pandas
