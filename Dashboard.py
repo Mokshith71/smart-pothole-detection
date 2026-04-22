@@ -8,7 +8,7 @@ from pymongo import MongoClient
 st.set_page_config(page_title="Pothole Dashboard", page_icon="🚧", layout="wide")
 
 # PASTE YOUR CONNECTION STRING HERE
-MONGO_URI = MONGO_URI = "mongodb+srv://mokshithv71_db_user:Mokshith%402005@cluster0.alfgnnb.mongodb.net/?appName=Cluster0"
+MONGO_URI = MONGO_URI = "mongodb+srv://mokshithv71_db_user:YOUR_PASSWORD_HERE@cluster0.alfgnnb.mongodb.net/?appName=Cluster0"
 
 @st.cache_resource
 def init_connection():
