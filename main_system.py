@@ -20,7 +20,7 @@ CONFIDENCE_THRESHOLD = 0.6
 # --- MONGODB SETUP ---
 # PASTE YOUR CONNECTION STRING HERE. 
 # Remember to replace <db_password> with your actual password!
-MONGO_URI = MONGO_URI = "mongodb+srv://mokshithv71_db_user:Mokshith%402005@cluster0.alfgnnb.mongodb.net/?appName=Cluster0"
+MONGO_URI = MONGO_URI = "mongodb+srv://mokshithv71_db_user:YOUR_PASSWORD_HERE@cluster0.alfgnnb.mongodb.net/?appName=Cluster0"
 
 print("Connecting to MongoDB...")
 client = MongoClient(MONGO_URI)
